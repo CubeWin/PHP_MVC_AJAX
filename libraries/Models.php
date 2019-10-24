@@ -1,0 +1,9 @@
+<?php
+class Models // ESTA CLASE ESTA SIENDO LLAMADA EN EL ARCHIVO INDEX.PHP
+{
+	function __construct()
+	{
+		$this->modelsData = new Conexion(); // CREAMOS UNA VARIABLE Y INSTANCIAMOS A LA CLASE CONEXION QUE ESTA EN ESTA CARPETA LIBRARIES
+		// REVISAR CONEXION.PHP
+	}
+}
